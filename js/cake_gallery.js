@@ -53,7 +53,7 @@ for (var i = 0;i < allButtons.length; i++) {
                     {
                          if (pound != null) {
    
-                              var url = "https://wa.me/917980026215?text=" + "I want " + pound + " pound " + flavour + " (code : " + code+ ")" + encodeURIComponent(imageURL);
+                              var url = "https://wa.me/917980026215?text=" + "I want " + pound + " pound " + flavour + "  (" + encodeURIComponent(imageURL) + " )";
                               window.open(url).focus();
                          }
                          location.reload();
