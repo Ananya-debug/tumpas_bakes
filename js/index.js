@@ -7,6 +7,10 @@ window.addEventListener("load", function (event) {
      for (let i = 0; i < offer.length; i++) {
           offer[i].style.visibility = "visible";
           document.getElementById("body").style.opacity = "0.2";
+          const nav = document.getElementsByClassName("nav");
+          for (let j = 0; j < nav.length; j++) {
+               nav[j].style.opacity = "0.2";
+          }
      }
 
      var close_offer = document.querySelectorAll('.close_offer');
@@ -15,6 +19,10 @@ window.addEventListener("load", function (event) {
                for (let i = 0; i < offer.length; i++) {
                     offer[i].style.visibility = "hidden";
                     document.getElementById("body").style.opacity = "1";
+                    const nav = document.getElementsByClassName("nav");
+                    for (let j = 0; j < nav.length; j++) {
+                         nav[j].style.opacity = "1";
+                    }
                }
           })
      }
