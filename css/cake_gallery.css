@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+marquee{
+     background-color: rgb(215, 1, 1);
+     color: white;
+     font-size: 18px;
+     letter-spacing: 1px;
+}
+
+.body_main {
+     margin-top: 5%;
+}
+
+.body_main nav {
+     display: flex;
+     justify-content: center;
+}
+
+.main_img {
+     position: relative;
+     box-shadow: 3px 0 3px 0 grey;
+}
+
+.text {
+     position: absolute;
+     top: 50%;
+     left: 30%;
+     transform: translate(-50%, -50%);
+     font-family: 'Allura', cursive;
+     font-size: 4em;
+}
+
+.cake_display {
+     margin: 15px;
+     margin-top: 35px;
+     display: grid;
+     grid-template-columns: auto auto auto auto auto;
+}
+
+.items {
+     text-align: center;
+     padding: 10px;
+     width: 250px;
+}
+
+.items h4 {
+     margin: -3px;
+     font-family: 'Quintessential', cursive;
+     letter-spacing: 1px;
+}
+
+.items h3 {
+     cursor: pointer;
+     background-color: rgba(255, 206, 133, 0.937);
+     box-shadow: 2px 2px gray;
+}
+
+.items a {
+     text-decoration: none;
+     color: black;
+}
+
+.items p {
+     border-radius: 5px;
+     transform: rotate(-20deg);
+     font-family: 'Jost', sans-serif;
+     padding: 5px;
+     background-color: red;
+     color: white;
+     position: absolute;
+}
+
+.items a:hover {
+     font-size: large;
+}
+
+.items:hover {
+     border: 2px solid black;
+}
+
+fieldset {
+     text-align: center;
+}
+
+details {
+     margin: 12px;
+     display: inline-block;
+}
+
+summary {
+     padding: 9px;
+     font-size: 20px;
+     font-family: 'Quintessential', cursive;
+     font-weight: 900;
+     letter-spacing: 1px;
+     border-radius: 5px;
+}
+
+summary:hover {
+     cursor: pointer;
+     box-shadow: 2px 2px 2px 2px gray;
+}
+
+details .cake_display .items {
+     padding: 20px;
+}
+
+legend {
+     font-size: 17px;
+     font-style: italic;
+}
+
+fieldset {
+     box-shadow: 2px 2px 2px gray;
+}
+
+fieldset a {
+     text-decoration: none;
+     color: black;
+}
+
+.hide_before {
+     display: none;
+}
+
+.align {
+     text-align: center;
+}
+
+.fc summary {
+     text-align: center;
+     background-image: url("fc_bg.jpg");
+     text-shadow: 2px 2px white;
+     font-size: 25px;
+     letter-spacing: 2px;
+}
+
+.fc p {
+     font-size: 17px;
+}
+
+.fc a {
+     text-decoration: none;
+     color: white;
+}
+
+.fc a:hover {
+     text-decoration: underline;
+}
+
+.fc_pics span {
+     letter-spacing: 0.5px;
+     font-weight: 600;
+     border-radius: 35px;
+     font-size: 23px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 50px;
+     padding-right: 50px;
+     background-color: rgb(4, 173, 4);
+}
+
+.fc_pics {
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 5px;
+     padding-top: 15px;
+     border: 2px solid black;
+     margin: 10px;
+}
+
+#hide_confirm{
+     display: none;
+}
+#ok{
+     border: none;
+     background: #56b0ed;
+     background-image: -webkit-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: -moz-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: -ms-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: -o-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: linear-gradient(to bottom, #56b0ed, #0a2080);
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 28px;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 15px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+}
+#ok:hover{
+     background: #6f1b96;
+     background-image: -webkit-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: -moz-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: -ms-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: -o-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: linear-gradient(to bottom, #6f1b96, #b321b5);
+     text-decoration: none;
+}
+
+.popup fieldset {
+     
+     padding: 18px;
+     height: 200px;
+     width: 380px;
+}
+.popup{
+     visibility: hidden;
+     background-color: white;
+     position:fixed;
+     z-index: 1;
+     left: 50%;
+     top: 50%;
+     -ms-transform: translate(-50%,-50%);
+     -moz-transform:translate(-50%,-50%);
+     -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+}
+.popup fieldset label{
+     
+     font-family: 'Akaya Telivigala', cursive;
+     font-size: 20px;
+}
+.pop{
+     
+     letter-spacing: 1px;
+}
+.close{
+     display: inline-flex;
+     cursor: pointer;
+     font-size: 11px;
+    
+}
+.popup .confirm {
+     border: none;
+     background: #56b0ed;
+     background-image: -webkit-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: -moz-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: -ms-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: -o-linear-gradient(top, #56b0ed, #0a2080);
+     background-image: linear-gradient(to bottom, #56b0ed, #0a2080);
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 28px;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 15px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+}
+
+.popup .confirm:hover {
+     background: #6f1b96;
+     background-image: -webkit-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: -moz-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: -ms-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: -o-linear-gradient(top, #6f1b96, #b321b5);
+     background-image: linear-gradient(to bottom, #6f1b96, #b321b5);
+     text-decoration: none;
+}
+
+@media only screen and (max-width: 550px) {
+     .marq{
+          margin-top: 75px;
+     }
+     .body_main {
+          margin-top: 18%;
+          margin-bottom: 25%;
+     }
+
+     .nav img {
+          width: 9em;
+          margin-left: 5px;
+     }
+
+     .hide {
+          display: none;
+     }
+
+     .hide_before {
+          display: contents;
+     }
+
+     .text {
+          padding: 20px;
+          padding-left: 50px;
+          padding-right: 50px;
+          background-image: url("cake_nav.png");
+          font-size: 10vw;
+     }
+
+     fieldset {
+          margin-top: 15px;
+     }
+
+     .cake_display {
+
+          margin: 15px;
+          margin-top: 35px;
+          display: grid;
+          grid-template-columns: auto;
+
+     }
+
+     .cake_display .items {
+          margin: auto;
+     }
+
+     .fc_pics img {
+          width: 100%;
+     }
+
+     details {
+          width: 100%;
+     }
+
+     .fc summary {
+          text-align: center;
+          width: 350px;
+          font-size: 22px;
+          margin: auto;
+     }
+
+     .align {
+          margin-top: 15px;
+          text-align: center;
+     }
+
+     .popup fieldset {
+          padding: 6px;
+          height: 250px;
+          width: 180px;
+     }
+     .popup fieldset label{
+     
+          font-family: 'Akaya Telivigala', cursive;
+          font-size: 15px;
+     }
+     .close{
+          display: inline-flex;
+          cursor: pointer;
+          font-size: 9px;
+         
+     }
+     #ok{
+          font-size: 10px;
+     }
+     .confirm{
+          font-size: 10px;
+     }
+}

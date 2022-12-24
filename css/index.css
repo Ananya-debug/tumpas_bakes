@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Shadows+Into+Light&display=swap');
+
+
+.nav {
+     position: fixed;
+     width: 100%;
+     top: 0;
+     backdrop-filter: blur(300px);
+}
+
+.body_main {
+     margin-top: 12%;
+     font-family: 'Jost', sans-serif;
+}
+
+.offer_poster {
+     visibility: hidden;
+     background-color: white;
+     position: fixed;
+     z-index: 1;
+     left: 50%;
+     top: 50%;
+     -ms-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+
+.flex_offer{
+     display: flex;
+     justify-content: space-around;
+     background-color: rgba(255, 222, 5, 0.844);
+}
+
+.offer_poster img {
+     height: 700px;
+}
+
+.offer_poster .close_offer {
+     display: inline-flex;
+     cursor: pointer;
+     font-size: 16px;
+
+}
+
+.offer_poster a{
+     text-decoration: none;
+     font-size: 19px;
+     text-align: center;
+     padding: 5px;
+     padding-left: 18px;
+     padding-right: 18px;
+     background-color: green;
+     border-radius: 9px;
+     color: white;
+     letter-spacing: 1px;
+}
+.offer_poster a:hover{
+     font-size: 17px;
+}
+
+.image_slider {
+     background-color: black;
+     margin: 0;
+}
+
+.image_slider video {
+     width: 60%;
+}
+
+.dream_cake {
+     max-width: 100%;
+     height: auto;
+     margin: 5px;
+     background-image: url("dreamCake1.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: space-around;
+     border-radius: 30px;
+     color: white;
+
+}
+
+.main_text {
+     font-family: 'Shadows Into Light', cursive;
+}
+
+.side_text {
+     font-family: 'Cormorant SC', serif;
+     padding-left: 35px;
+     border-left: 8px groove white;
+     border-radius: 8px;
+}
+
+.dream_cake p {
+     text-shadow: 3px 2px black;
+     font-size: 4vw;
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+
+.body_main a {
+     text-decoration: none;
+}
+
+.dream_cake:hover {
+     box-shadow: 8px 8px 5px gray;
+     margin-bottom: 19px;
+}
+
+.hide {
+     visibility: hidden;
+}
+
+.fb_page {
+     margin-left: 6%;
+     margin-right: 6%;
+     margin-top: 3%;
+     margin-bottom: 1%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.center {
+     margin: 1%;
+     font-size: 2.5rem;
+     letter-spacing: 1px;
+     font-family: 'Allura', cursive;
+}
+
+.cakes {
+     margin-left: 6%;
+     margin-right: 6%;
+     margin-top: 4%;
+     display: flex;
+     justify-content: space-around;
+}
+
+.cakes img {
+     box-shadow: 5px 5px rgba(82, 81, 81, 0.638);
+}
+
+.cakes center {
+     margin-left: -25%;
+     font-size: large;
+}
+
+.cakes a {
+     text-decoration: none;
+     color: black;
+}
+
+.cakes img:hover {
+     box-shadow: 7px 7px rgba(68, 67, 67, 0.638);
+     opacity: 0.8;
+}
+
+
+
+
+@media only screen and (max-width: 550px) {
+
+     /* height of a phone : 619px
+Width of a phone : 287px */
+
+     .offer_poster img {
+          height: 350px;
+          width: 150;
+     }
+
+     .offer_poster .close_offer {
+          display: inline-flex;
+          cursor: pointer;
+          font-size: 10px;
+
+     }
+     .offer_poster a{
+          font-size: 15px;
+     }
+     .offer_poster a:hover{
+          font-size: 13px;
+     }
+
+     .body_main {
+          margin-top: 55%;
+          margin-bottom: 20%;
+     }
+
+     .image_slider video {
+          width: 100%;
+     }
+
+     .dream_cake p {
+          text-align: center;
+          text-shadow: 2px 2px black;
+          font-size: 1.7em;
+     }
+
+     .fb_page img {
+          display: none;
+     }
+
+     .hide {
+          text-align: center;
+          visibility: visible;
+          font-size: larger;
+     }
+
+     .center {
+          text-align: start;
+          font-size: 2em;
+     }
+}

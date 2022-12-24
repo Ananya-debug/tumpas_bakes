@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.nav {
+     position: fixed;
+     width: 100%;
+     top: 0;
+     backdrop-filter: blur(300px);
+}
+
+body {
+     background-image: url("bg1.webp");
+     background-size: cover;
+}
+
+.body_main {
+     margin-top: 12%;
+}
+
+.body_main h1 {
+     display: inline-block;
+     font-size: 3.5vw;
+     font-family: 'Jost', sans-serif;
+     text-shadow: 2px 2px pink;
+}
+
+.body_main {
+     margin-left: 6%;
+     margin-right: 6%;
+     font-family: 'Jost', sans-serif;
+}
+
+.pic,
+.description {
+     background-color: white;
+     padding: 1%;
+     margin-top: 2%;
+     box-shadow: 3px 3px 3px 3px gray;
+     width: 42%;
+
+}
+
+.pic {
+     animation: pic1 2s 0s 1;
+}
+
+@keyframes pic1 {
+     0% {
+          margin-left: -100%;
+     }
+
+     100% {
+          margin-left: 0%;
+     }
+}
+
+.description {
+     margin-left: 55%;
+     animation: ani2 2s 0s 1;
+     margin-top: -3%;
+}
+
+.pic span {
+     text-shadow: 1px 1px gray;
+     font-size: 19px;
+     text-decoration: underline;
+}
+
+.quote {
+     letter-spacing: 1px;
+     font-weight: bold;
+     text-shadow: 1px 1px gray;
+     font-size: 20px;
+     text-align: center;
+}
+
+@keyframes ani2 {
+     0% {
+          margin-left: 100%;
+     }
+
+     100% {
+          margin-left: 55%;
+     }
+}
+
+
+
+@media only screen and (max-width: 550px) {
+     .body_main {
+          margin-top: 40%;
+          margin-bottom: 25%;
+     }
+
+     .body_main h1 {
+
+          font-size: 2.2em;
+
+     }
+
+     .description {
+          margin-left: 0;
+          animation: ani2 2s 0s 1;
+          margin-top: -3%;
+     }
+
+     .pic,
+     .description {
+          background-color: white;
+          padding: 1%;
+          margin-top: 2%;
+          box-shadow: 3px 3px 3px 3px gray;
+         width: 100%;
+
+     }
+
+     .pic span {
+          display: block;
+
+     }
+
+}

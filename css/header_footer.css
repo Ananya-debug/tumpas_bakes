@@ -1,0 +1,260 @@
+/* 3 google fonts are used for header and footer section of every page */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Quintessential&display=swap');
+
+/* css for header design */
+/* .nav {
+     position: fixed;
+     width: 100%;
+     top: 0;
+     backdrop-filter: blur(300px);
+} */
+
+.nav img {
+     float: left;
+     margin-left: 15%;
+}
+
+.links {
+     background-color: black;
+     margin-bottom: 2.5%;
+     font-family: 'Quintessential', cursive;
+     letter-spacing: 2px;
+     font-weight: bold;
+}
+
+.links ul li {
+     margin-left: 5px;
+}
+
+.nav ul li {
+     font-size: small;
+     display: inline;
+     list-style: none;
+     padding-left: 1.5%;
+     padding-right: 1.5%;
+     padding-top: 0%;
+     padding-bottom: 0%;
+}
+
+.nav ul li a {
+     text-decoration: none;
+     color: beige;
+
+}
+
+#login {
+     margin-left: 9%;
+}
+
+
+/* Button Design from css_button_generator */
+.btn {
+     background: #fc74f1;
+     background-image: -webkit-linear-gradient(top, #ff9df7, #511361);
+     background-image: -moz-linear-gradient(top, #ff9df7, #511361);
+     background-image: -ms-linear-gradient(top, #ff9df7, #511361);
+     background-image: -o-linear-gradient(top, #ff9df7, #511361);
+     background-image: linear-gradient(to bottom, #ff9df7, #511361);
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 0px;
+     -webkit-box-shadow: 3px 3px 0px #d4d2d4;
+     -moz-box-shadow: 3px 3px 0px #d4d2d4;
+     box-shadow: 3px 3px 0px #d4d2d4;
+     font-family: 'Quintessential', cursive;
+     ;
+     color: #ffffff;
+     font-size: 16px;
+     padding: 8px 20px 8px 20px;
+     text-decoration: none;
+     font-weight: bold;
+
+}
+
+.btn:hover {
+     background: #6e30d9;
+     text-decoration: none;
+}
+
+/* button ends */
+
+
+.links2 ul li {
+     background-color: rgb(255, 224, 179);
+     padding: 1%;
+     margin-left: 3%;
+     box-shadow: 2px 2px grey;
+
+}
+
+.links2 ul li a {
+     color: black;
+     font-family: 'Allura', cursive;
+     font-size: 1.25rem;
+     font-weight: bold;
+     letter-spacing: 1px;
+}
+
+.links a:hover {
+     background-color: rgb(100, 100, 100);
+     padding: 0.17em;
+}
+
+.links2 a:hover {
+     color: gray;
+}
+
+/* header design ends */
+
+.align_center {
+     text-align: center;
+}
+
+
+
+/* css for footer design */
+.footer_main {
+     background-color: rgb(62, 62, 62);
+     height: 62vh;
+     margin-top: 6%;
+}
+
+.logo_bottom {
+     position: relative;
+     left: 42%;
+     bottom: 14%;
+     margin-bottom: 0.5px;
+}
+
+.facebook_logo {
+     position: relative;
+     left: 34%;
+
+}
+
+.footer_main ul {
+     display: flex;
+     justify-content: center;
+}
+
+.footer_main ul li {
+     list-style: none;
+     margin-left: 3%;
+     margin-right: 3%;
+     margin-top: 0.9%;
+
+}
+
+.footer_main ul li a {
+     text-decoration: none;
+     color: rgba(240, 255, 255, 0.921);
+     font-family: 'Quintessential', cursive;
+     font-size: small;
+     letter-spacing: 2px;
+}
+
+.footer_main hr {
+     width: 70%;
+
+}
+
+.footer_main p {
+     margin-top: 2%;
+     color: rgba(245, 222, 179, 0.555);
+     letter-spacing: 1px;
+     font-weight: bold;
+}
+
+.payment_logos {
+     display: flex;
+     justify-content: center;
+}
+
+.payment_logos img {
+     margin-left: 3%;
+     margin-right: 3%;
+     margin-top: 0.4%;
+}
+
+.extra_links ul li a {
+     color: rgba(245, 222, 179, 0.555);
+     font-size: 14px;
+     letter-spacing: 0.5px;
+     font-family: serif;
+
+}
+
+.credit {
+     letter-spacing: 1px;
+     background-color: rgb(0, 0, 0);
+     text-align: center;
+     color:white;
+     font-size: 17px;
+     margin-top: 2%;
+     padding: .5%;
+     text-shadow: 1px 1px black;
+}
+
+.footer_main ul li a:hover {
+     font-weight: bold;
+}
+
+/* footer design ends */
+
+
+@media only screen and (max-width: 550px) {
+     .nav img {
+         
+          width: 8em;
+          margin-left: 5px;
+     }
+
+     .logo_bottom {
+          width: 11em;
+          left: 28%;
+     }
+
+     .facebook_logo {
+          left: 5%;
+     }
+
+     .links2 ul li {
+          margin-top: 15px;
+          background-color: rgb(255, 224, 179);
+          padding: 2%;
+          margin-left: 2px;
+          box-shadow: 2px 2px grey;
+          
+     }
+     .links2 ul li a {
+          color: black;
+          font-family: 'Allura', cursive;
+          font-size: 15px;
+          font-weight: bold;
+          letter-spacing: 1px;
+     }
+     .credit{
+          font-size: 14px;
+     }
+     .footer_main ul li a {
+          text-decoration: none;
+          color: rgba(240, 255, 255, 0.921);
+          font-family: 'Quintessential', cursive;
+          font-size: 12px;
+          letter-spacing: 2px;
+     }
+     
+     .footer_main hr {
+          width: 70%;
+     
+     }
+     .footer_main ul li {
+          border-right: 2px solid white;
+          list-style: none;
+          margin-left: 1%;
+          margin-right: 1%;
+          margin-top: 0.9%;
+     
+     }
+    
+}

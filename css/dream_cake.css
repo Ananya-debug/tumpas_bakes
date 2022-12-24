@@ -1,0 +1,67 @@
+body{
+     background-image: url("bg1.webp");
+     background-size: cover;
+}
+
+.body_main{
+     margin-top: 4%;
+}
+
+.text_mask{
+ background-image: url("dreamCake1.jpg");
+ background-size: cover;
+ background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+.text_mask p{
+     text-align: center;
+     font-size: 5em;
+     font-weight: 1000;
+}
+.font{
+     text-align: center;
+     font-size: 2em;
+     color: rgb(97, 19, 19);
+     text-shadow: 1px 1px gray;
+     
+}
+.center{
+     text-align: center;
+     margin-bottom: 150px;
+}
+.center span{
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+    width: 450px;
+     padding: 10px;
+    background-color: rgb(20, 175, 20);
+    font-size: 23px;
+    color: white;
+}
+.center a{
+     text-decoration: none;
+     color: white;
+}
+.center span:hover{
+     text-decoration: underline;
+}
+
+@media only screen and (max-width: 550px) {
+     .nav img {
+          width: 9em;
+          margin-left: 5px;
+     }
+     .center img{
+          width: 300px;
+     }
+     .center span{
+          width: 300px;
+     }
+     .text_mask p{
+          text-align: center;
+          font-size: 3em;
+          font-weight: 500;
+     }
+}
