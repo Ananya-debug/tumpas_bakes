@@ -167,13 +167,13 @@ Width of a phone : 287px */
 
      .offer_poster img {
           height: 350px;
-          width: 150;
+          width: 130;
      }
 
      .offer_poster .close_offer {
           display: inline-flex;
           cursor: pointer;
-          font-size: 10px;
+          font-size: 13px;
 
      }
      .offer_poster a{
