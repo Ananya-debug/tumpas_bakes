@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
-marquee{
-     background-color: rgb(215, 1, 1);
-     color: white;
-     font-size: 18px;
-     letter-spacing: 1px;
-}
 
 .body_main {
      margin-top: 5%;
@@ -263,9 +257,7 @@ fieldset a {
 }
 
 @media only screen and (max-width: 550px) {
-     .marq{
-          margin-top: 75px;
-     }
+     
      .body_main {
           margin-top: 18%;
           margin-bottom: 25%;
@@ -319,8 +311,8 @@ fieldset a {
 
      .fc summary {
           text-align: center;
-          width: 350px;
-          font-size: 22px;
+          width: 240px;
+          font-size: 17px;
           margin: auto;
      }
 
@@ -332,23 +324,23 @@ fieldset a {
      .popup fieldset {
           padding: 6px;
           height: 250px;
-          width: 180px;
+          width: 210px;
      }
      .popup fieldset label{
      
           font-family: 'Akaya Telivigala', cursive;
-          font-size: 15px;
+          font-size: 19px;
      }
      .close{
           display: inline-flex;
           cursor: pointer;
-          font-size: 9px;
+          font-size: 12px;
          
      }
      #ok{
-          font-size: 10px;
+          font-size: 11px;
      }
      .confirm{
-          font-size: 10px;
+          font-size: 11px;
      }
 }
