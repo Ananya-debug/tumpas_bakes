@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
-
+.nav {
+     z-index: 2;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     backdrop-filter: blur(300px);
+}
 .body_main {
-     margin-top: 5%;
+     margin-top: 12%;
 }
 
 .body_main nav {
