@@ -43,23 +43,32 @@ for (var i = 0;i < allButtons.length; i++) {
                var pound = document.getElementById("pound").value;
                document.getElementById("ok").style.display = "none";
                document.getElementById("pound").style.display = "none";
-               document.getElementById("pop").innerText = pound + " pound is selected ";
-               document.getElementById("hide_confirm").style.display = "block";
+               if(pound === "")
+               {
+                    document.querySelector(".popup label").innerText = "Enter Correctly !! ";
 
-               var confirm = document.querySelectorAll('.confirm');
-               
-               for (var i = 0; i < confirm.length; i++) {
-                    confirm[i].addEventListener('click', function (e) 
-                    {
-                         if (pound != null) {
-   
-                              var url = "https://wa.me/917980026215?text=" + "I want " + pound + " pound " + flavour + "  (" + encodeURIComponent(imageURL) + " )";
-                              window.open(url).focus();
-                         }
-                         location.reload();
-
-                    })
                }
+               else
+               {
+                    document.getElementById("pop").innerText = pound + " pound is selected ";
+                    document.getElementById("hide_confirm").style.display = "block";
+     
+                    var confirm = document.querySelectorAll('.confirm');
+                    
+                    for (var i = 0; i < confirm.length; i++) {
+                         confirm[i].addEventListener('click', function (e) 
+                         {
+                              if (pound != null) {
+        
+                                   var url = "https://wa.me/917980026215?text=" + "I want " + pound + " pound " + flavour + "  (" + encodeURIComponent(imageURL) + " )";
+                                   window.open(url).focus();
+                              }
+                              location.reload();
+     
+                         })
+                    }
+               }
+               
           })
 
         

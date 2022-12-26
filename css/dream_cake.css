@@ -1,3 +1,10 @@
+.nav {
+     position: fixed;
+     width: 100%;
+     top: 0;
+     backdrop-filter: blur(300px);
+}
+
 body{
      background-image: url("bg1.webp");
      background-size: cover;
