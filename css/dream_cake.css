@@ -11,7 +11,7 @@ body{
 }
 
 .body_main{
-     margin-top: 88%;
+     margin-top: 12%;
 }
 
 .text_mask{
@@ -56,6 +56,9 @@ color: transparent;
 }
 
 @media only screen and (max-width: 550px) {
+     .body_main{
+          margin-top: 400px;
+     }
      .nav img {
           width: 9em;
           margin-left: 5px;
