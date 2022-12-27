@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Quintessential&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 .nav {
      z-index: 2;
      position: fixed;
@@ -7,6 +8,7 @@
      top: 0;
      backdrop-filter: blur(300px);
 }
+
 .body_main {
      margin-top: 12%;
 }
@@ -170,10 +172,11 @@ fieldset a {
      margin: 10px;
 }
 
-#hide_confirm{
+#hide_confirm {
      display: none;
 }
-#ok{
+
+#ok {
      border: none;
      background: #56b0ed;
      background-image: -webkit-linear-gradient(top, #56b0ed, #0a2080);
@@ -190,7 +193,8 @@ fieldset a {
      padding: 10px 20px 10px 20px;
      text-decoration: none;
 }
-#ok:hover{
+
+#ok:hover {
      background: #6f1b96;
      background-image: -webkit-linear-gradient(top, #6f1b96, #b321b5);
      background-image: -moz-linear-gradient(top, #6f1b96, #b321b5);
@@ -201,38 +205,43 @@ fieldset a {
 }
 
 .popup fieldset {
-     
+
      padding: 18px;
      height: 200px;
      width: 380px;
 }
-.popup{
+
+.popup {
      visibility: hidden;
      background-color: white;
-     position:fixed;
+     position: fixed;
      z-index: 1;
      left: 50%;
      top: 50%;
-     -ms-transform: translate(-50%,-50%);
-     -moz-transform:translate(-50%,-50%);
-     -webkit-transform: translate(-50%,-50%);
-      transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
 }
-.popup fieldset label{
-     
+
+.popup fieldset label {
+
      font-family: 'Akaya Telivigala', cursive;
      font-size: 20px;
 }
-.pop{
-     
+
+.pop {
+
      letter-spacing: 1px;
 }
-.close{
+
+.close {
      display: inline-flex;
      cursor: pointer;
      font-size: 11px;
-    
+
 }
+
 .popup .confirm {
      border: none;
      background: #56b0ed;
@@ -261,9 +270,12 @@ fieldset a {
      text-decoration: none;
 }
 
+
+
 @media only screen and (max-width: 550px) {
-     
+
      .body_main {
+          margin-top: 60%;
           margin-bottom: 25%;
      }
 
@@ -330,21 +342,27 @@ fieldset a {
           height: 250px;
           width: 270px;
      }
-     .popup fieldset label{
-     
+
+     .popup fieldset label {
+
           font-family: 'Akaya Telivigala', cursive;
           font-size: 19px;
      }
-     .close{
+
+     .close {
           display: inline-flex;
           cursor: pointer;
           font-size: 12px;
-         
+
      }
-     #ok{
+
+     #ok {
           font-size: 11px;
      }
-     .confirm{
+
+     .confirm {
           font-size: 11px;
      }
+
+
 }
