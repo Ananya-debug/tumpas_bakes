@@ -15,7 +15,7 @@ body{
 }
 
 .text_mask{
- background-image: url("dreamCake1.jpg");
+ background-image: url("dreamCake1.webp");
  background-size: cover;
  background-clip: text;
 -webkit-background-clip: text;
