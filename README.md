@@ -1,2 +1,7 @@
 # tumpas_bakes.github.io
- This is a website of the business named Tumpas Bakes. Tumpas Bakes has huge collection of cakes.
+ TUMPA'S BAKES is an e-commerce website, allowing you buy variety of cakes. This is a complete website built using the basic tools of web development. 
+ NO BOOTSTRAP IS USED. 
+ Each and every code is written by me . 
+ CHECK THIS OUT NOW !!
+ ENJOY SURFING !
+ 
