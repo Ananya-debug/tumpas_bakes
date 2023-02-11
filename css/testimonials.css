@@ -32,6 +32,7 @@ body{
      grid-template-columns: auto auto;
 }
 .reviews img{
+     width: 600px;
      margin: 20px;
      box-shadow: 2px 2px 2px 2px gray;
 }
@@ -53,6 +54,7 @@ body{
      }
      .reviews img{
           margin: 3px;
+          margin-bottom: 6px;
           width: 100%;
      }
 
