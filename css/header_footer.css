@@ -201,7 +201,13 @@
 
 /* footer design ends */
 
-
+/* Chocolate */
+#choco{
+     background-color: rgb(255, 38, 92);
+}
+.link3{
+     display: none;
+}
 @media only screen and (max-width: 550px) {
      .nav img {
          
@@ -227,6 +233,25 @@
           
      }
      .links2 ul li a {
+          color: black;
+          font-family: 'Allura', cursive;
+          font-size: 15px;
+          font-weight: bold;
+          letter-spacing: 1px;
+     }
+     #choco{
+          display: none;
+     }
+     .link3{
+          display: contents;
+          text-align: center;
+     }
+     .link3 li{
+          list-style: none;
+          background-color: rgb(255, 38, 92);
+     }
+     .link3 li a{
+          text-decoration: none;
           color: black;
           font-family: 'Allura', cursive;
           font-size: 15px;
