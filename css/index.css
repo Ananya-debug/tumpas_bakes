@@ -68,6 +68,41 @@
 .image_slider video {
      width: 60%;
 }
+#menu{
+     padding: 2px;
+     text-align: center;
+     border: 2px solid black;
+}
+.cake_menu{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+}
+#menu span{
+     border-radius: 20px;
+     padding: 7px;
+     padding-left: 30px;
+     padding-right: 30px;
+     background: #6f1b96;
+     box-shadow: 2px 2px 2px 2px gray;
+}
+#menu span a{
+     font-size: 19px;
+     font-weight: 600;
+     color: pink;
+     text-shadow: 2px 2px black;
+}
+#menu p{
+     font-size: 19px;
+     font-weight: 600;
+     color: black;
+}
+#menu span a:hover{
+     text-decoration: underline;
+}
+.cake_menu img{
+     height: 650px;
+}
 
 .dream_cake {
      max-width: 100%;
@@ -211,5 +246,14 @@ Width of a phone : 287px */
      .center {
           text-align: start;
           font-size: 2em;
+     }
+     #disappear{
+          display: none;
+     }
+     .cake_menu{
+          display: block;
+     }
+     .cake_menu img{
+          width: 100%;
      }
 }

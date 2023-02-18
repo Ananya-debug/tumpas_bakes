@@ -63,6 +63,7 @@
 }
 
 .items p {
+     font-size: 14px;
      border-radius: 5px;
      transform: rotate(-20deg);
      font-family: 'Jost', sans-serif;
@@ -76,8 +77,19 @@
      font-size: large;
 }
 
+.tooltiptext {
+
+     font-size: 17px;
+     background-color: rgba(0, 0, 0, 0.904);
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 5px 3px;
+     letter-spacing: 1px;
+}
+
 .items:hover {
-     border: 2px solid black;
+     border: 1px solid black;
 }
 
 fieldset {
@@ -270,7 +282,52 @@ fieldset a {
      text-decoration: none;
 }
 
+.go_to_menu {
+     box-shadow: 2px 2px 2px 2px gray;
+     padding: 6px;
+     border-radius: 12px;
+     display: flex;
+     justify-content: space-around;
+     animation: go_to 2s infinite;
+}
+@keyframes go_to {
+     0%{
+          border: 3px solid rgb(240, 24, 60);
+     }
+     50%{
+          border: 3px solid rgb(240, 24, 60);
+     }
+     100%{
+          border: 3px solid #6f1b96;
+     }
+}
+.view {
 
+     border-radius: 20px;
+     padding: 7px;
+     padding-left: 30px;
+     padding-right: 30px;
+     background: #6f1b96;
+     ;
+}
+
+.view a {
+     text-decoration: none;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 20px;
+     font-weight: 900;
+     color: rgb(255, 228, 233);
+     text-shadow: 2px 2px black;
+}
+
+.desc {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 20px;
+     font-weight: 900;
+     letter-spacing: 0.5px;
+     padding: 7px;
+     color: black;
+}
 
 @media only screen and (max-width: 550px) {
 
@@ -364,5 +421,14 @@ fieldset a {
           font-size: 11px;
      }
 
+     .tooltiptext {
 
+          font-size: 14px;
+          background-color: rgba(0, 0, 0, 0.904);
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 3px 3px;
+          letter-spacing: 0.5px;
+     }
 }
