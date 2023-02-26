@@ -49,6 +49,9 @@ a:hover {
           display: block;
      }
      span{
-          font-size: 15px;
+          font-size: 14px;
+     }
+     .quote{
+          padding: 20px;
      }
 }
