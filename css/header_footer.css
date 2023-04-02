@@ -249,6 +249,8 @@
      .link3 li{
           list-style: none;
           background-color: rgb(255, 38, 92);
+          width: 60%;
+          box-shadow: 2px 2px gray;
      }
      .link3 li a{
           text-decoration: none;
